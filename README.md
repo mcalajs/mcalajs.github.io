@@ -1,1 +1,1 @@
-# michaella.github.io
+# studypal.github.io
