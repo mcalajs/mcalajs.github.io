@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Study Planner</h2>
+
+  <input id="task" placeholder="Enter task">
+  <button onclick="addTask()">Add</button>
+
+  <ul id="tasks"></ul>
+
+  <script>
+    function addTask() {
+      const task = document.getElementById("task").value;
+      const li = document.createElement("li");
+      li.innerText = task;
+      document.getElementById("tasks").appendChild(li);
+    }
+  </script>
+</body>
+</html>
