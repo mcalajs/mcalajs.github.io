@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Ask the Study AI</h2>
+
+  <textarea id="question" placeholder="Ask a study question"></textarea><br>
+  <button onclick="askAI()">Ask</button>
+
+  <p id="answer"></p>
+
+  <script>
+    function askAI() {
+      const q = document.getElementById("question").value;
+      document.getElementById("answer").innerText =
+        "AI will answer here: " + q;
+    }
+  </script>
+</body>
+</html>
